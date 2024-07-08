@@ -1,0 +1,118 @@
+.blogimage-icon2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .learning2 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 49px;
+  }
+  .category2 {
+    border-radius: var(--br-9xs);
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-xs);
+  }
+  .publishdate2 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 123px;
+  }
+  .description2,
+  .title2 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+  }
+  .title2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: inherit;
+  }
+  .description2 {
+    font-size: var(--body-s-bold-size);
+    font-weight: 500;
+    color: var(--grey);
+  }
+  .content2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .userpic-icon2 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .authorname2 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 85px;
+  }
+  .author2,
+  .blogimage-group,
+  .mobile {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .author2 {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xs);
+    font-size: var(--body-s-bold-size);
+  }
+  .blogimage-group,
+  .mobile {
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .blogimage-group {
+    height: 501px;
+    flex: 1;
+    box-shadow: 8px 8px 0#000;
+    border-radius: var(--br-xl);
+    background-color: var(--pure-white);
+    border: 1px solid var(--black);
+    flex-direction: column;
+    padding: var(--padding-5xl) var(--padding-4xl);
+    gap: var(--gap-5xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--black);
+    font-family: var(--body-s-bold);
+  }
+  .mobile {
+    width: 100%;
+    position: relative;
+    background-color: var(--yellow);
+    overflow: hidden;
+    flex-direction: row;
+    padding: 155px var(--padding-5xl) 156px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  
+  

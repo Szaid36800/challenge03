@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --body-s-bold: Figtree;
+  
+    /* font sizes */
+    --body-s-bold-size: 14px;
+    --body-m-size: 16px;
+    --heading-size: 24px;
+    --font-size-lgi: 19px;
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --yellow: #f4d04e;
+    --pure-white: #fff;
+    --grey: #7f7f7f;
+    --black: #111;
+  
+    /* Gaps */
+    --gap-5xl: 24px;
+    --gap-xs: 12px;
+  
+    /* Paddings */
+    --padding-199xl-5: 218.5px;
+    --padding-xl: 20px;
+    --padding-200xl-5: 219.5px;
+    --padding-3xl: 22px;
+    --padding-4xl: 23px;
+    --padding-9xs: 4px;
+    --padding-xs: 12px;
+    --padding-5xl: 24px;
+  
+    /* Border radiuses */
+    --br-xl: 20px;
+    --br-9xs: 4px;
+    --br-3xs: 10px;
+  }
+  
+  
+ 
